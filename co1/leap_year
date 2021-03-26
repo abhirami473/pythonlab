@@ -1,0 +1,5 @@
+l=int(input("enter the last year"))
+print("the leap year are:")
+for i in range(2021,l+l):
+    if i%4==0:
+        print(i)
