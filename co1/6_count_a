@@ -1,0 +1,7 @@
+list = ["park", "carter", "black"]
+count = 0
+for x in list:
+    for i in x:
+        if i == 'a':
+            count += 1
+print(count)
